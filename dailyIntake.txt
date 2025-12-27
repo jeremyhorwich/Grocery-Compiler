@@ -1,0 +1,51 @@
+DAILY NUTRITIONAL REQUIREMENTS (26yo male, 130lbs, 5'5", moderate exercise 5-6x/week)
+
+CALORIES: 2200-2400 kcal
+
+MACROS:
+- Carbs: 250-400g
+- Fiber: 40g
+- Protein: 100-125g
+- Fat: 61-106g
+- Saturated fat: minimize
+- Trans fat: minimize
+- α-Linolenic Acid: 1.6g
+- Linoleic Acid: 17g
+- Cholesterol: minimize
+- Water: 3.7L (16 cups)
+
+VITAMINS (format: name: amount, upper limit):
+- Vit A: 900mcg, UL 3000mcg
+- Vit C: 90mg, UL 2000mg
+- Vit D: 15mcg, UL 100mcg
+- Vit B6: 1.3mg, UL 100mg
+- Vit E: 15mg, UL 1000mg
+- Vit K: 120mcg
+- Thiamin: 1.2mg
+- Vit B12: 2.4mcg
+- Riboflavin: 1.3mg
+- Folate: 400mcg, UL 1000mcg
+- Niacin: 16mg, UL 35mg
+- Choline: 0.55g, UL 3.5g
+- Pantothenic Acid: 5mg
+- Biotin: 30mcg
+
+MINERALS (format: name: amount, upper limit):
+- Calcium: 1000mg, UL 2500mg
+- Chloride: 2.3g, UL 3.6g
+- Chromium: 35mcg
+- Copper: 900mcg, UL 10000mcg
+- Fluoride: 4mg, UL 10mg
+- Iodine: 150mcg, UL 1100mcg
+- Iron: 8mg, UL 45mg
+- Magnesium: 350mg, UL 350mg
+- Manganese: 2.3mg, UL 11mg
+- Molybdenum: 45mcg, UL 2000mcg
+- Phosphorus: 0.7g, UL 4g
+- Potassium: 3400mg
+- Selenium: 55mcg, UL 400mcg
+- Sodium: 1500mg, UL 2300mg
+- Zinc: 11mg, UL 40mg
+- Boron: 0mg, UL 20mg
+- Nickel: 0mg, UL 1mg
+- Vanadium: 0mg, UL 1.8mg

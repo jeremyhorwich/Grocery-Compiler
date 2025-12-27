@@ -5,7 +5,7 @@ def main():
 
     result = ingredient.invoke({
         "messages": [
-            {"role": "user", "content": "Cheddar, Milk, Eggs"}
+            {"role": "user", "content": "Construct the list, please."}
         ]
     })
 

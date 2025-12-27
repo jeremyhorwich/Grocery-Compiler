@@ -2,6 +2,7 @@ from .agent import Agent
 from dotenv import load_dotenv
 from langchain.tools import tool
 from requests import get, exceptions
+from pathlib import Path
 import os
 
 load_dotenv()
@@ -139,6 +140,18 @@ def get_food_details(fdc_id: str) -> str:
     except Exception as e:
         return f"Error: Unexpected error retrieving FDC ID {fdc_id}: {str(e)}"
 
+@tool
+def read_daily_intake():
+    """Retrieve dailyIntake.txt from the project root."""
+    current_file = Path(__file__)
+    
+    project_root = current_file.parent.parent.parent
+    
+    file_path = project_root / 'dailyIntake.txt'
+    
+    with open(file_path, 'r') as f:
+        return f.read()
+    
 def create_ingredients_agent() -> Agent:
     """Create an ingredient agent."""
 
@@ -146,6 +159,6 @@ def create_ingredients_agent() -> Agent:
 
     return Agent(
         __name__, 
-        tools=[search_usda_database, get_food_details],
+        tools=[search_usda_database, get_food_details, read_daily_intake],
         temperature=INGREDIENT_AGENT_TEMPERATURE
     )
