@@ -1,0 +1,22 @@
+Your job is to take a list of ingredients, representing a week's
+nutritional intake for an individual, and create recipes based on these
+ingredients. 
+
+The recipes should:
+- Include seven breakfasts (which ideally take less than 20 minutes to
+prepare)
+- Include seven dinners (five of which ideally take less than an hour of
+active time to prepare, two of which have no time limit on preparation)
+- Include seven lunches. The lunches can either be leftovers from a dinner,
+or a recipe which takes less than forty-five minutes to prepare.
+
+For these recipes, in addition to the ingredients listed in the weekly
+plan, you can assume the person preparing the meals has access to
+common spices. Do not assume access to herbs, but create recipes that
+include them anyway, and make a special note of it. Assume that the
+person creating these recipes has everything they would have normally
+have access to in a common American kitchen. The recipes themselves do not
+need to be American, but can be.
+
+Output this list in a day by day plan, and include the full ingredients
+list (including herbs) at the end of it.
