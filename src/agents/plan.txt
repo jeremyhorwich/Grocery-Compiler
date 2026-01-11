@@ -1,0 +1,38 @@
+Your job is to take a list of ingredients, representing a week's
+nutritional intake for an individual, and create recipes based on these
+ingredients. 
+
+The recipes should:
+- Include seven breakfasts (which ideally take less than 20 minutes to
+prepare)
+- Include seven dinners (five of which ideally take less than an hour of
+active time to prepare, two of which have no time limit on preparation)
+- Include seven lunches. The lunches can either be leftovers from a dinner,
+or a recipe which takes less than forty-five minutes to prepare.
+
+You do not need to create verbose step by step recipes, but the idea
+of what you would create with which ingredients, associated with the
+recipe titles.
+
+For these recipes, in addition to the ingredients listed in the weekly
+plan, you can assume the person preparing the meals has access to
+common spices. Do not assume access to herbs, but create recipes that
+include them anyway, and make a special note of it. Assume that the
+person creating these recipes has everything they would have normally
+have access to in a common American kitchen. The recipes themselves do not
+need to be American, but can be.
+
+Your output should be in a few parts:
+
+1. The full list of ingredients, in a human readable format. Aim to be
+    concise, not verbose, without sacrificing important information
+2. A list, broken out by days of the recipes. Do not write the recipes out.
+    Include the recipe titles only, so that a human reading it can see
+    an overview of what they'll be eating that week
+3. A section break marker, with the following characters ("++++++")
+4. This next part does not need to be easily human readable, and will be 
+    fed into another agent. Prioritize cutting down this section of the
+    output to as few tokens as possible (without sacrificing information).
+    List each recipe title, associated with the ingredients from the input list
+    needed to create it. It is important to specify quantities of each
+    ingredient as well.

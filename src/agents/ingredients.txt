@@ -19,6 +19,13 @@ specificity:
     enough chicken breast for seven days is too much chicken breast, but
     enough for three days is okay. Likewise, a different protein for every
     day of the week is too much variety.
+- You should also aim to choose foods which can easily be split up evenly
+    into breakfasts, lunches, and dinners. Do not worry about recipes,
+    only the ingredients themselves. However, a list that includes only
+    mussels (for example) as the protein source would not be a good list,
+    because there'd be no easy way to make breakfast. If it makes it
+    easier to construct this list, then you can focus on ingredients which
+    can be used for any meal.
 
 When constructing your list of ingredients, it is okay to be within a margin
 of error of about 10% above the recommended daily intake, and about 5% below.
