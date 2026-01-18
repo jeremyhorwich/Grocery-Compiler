@@ -1,20 +1,22 @@
-1. UI Layer for customizing your output
+- Command line arguments for testing
+- Optimizing API usage
+- UI Layer for customizing your output
     a. Your nutritional information based on age, weight, height, etc.
     b. Your food preferences
     c. Breakfast eater? Or not? Etc.
     d. Feedback on prior recommendations
     e. How many days you want to eat out
-2. Output feeds to email
+- Output feeds to email
     a. Preferences
         i. Daily/weekly emails
         ii. Specify your email address
         iii. Time of day for email
         iv. Recommendations on ui layer?
-3. More specificity for recommendations
+- More specificity for recommendations
     a. Based on local grocery store?
     b. Based on region?
     c. Sales prices?
     d. Budget? 
-4. Tell the agents what's already in your fridge/pantry
-5. Batch job that runs this process daily/weekly
+- Tell the agents what's already in your fridge/pantry
+- Batch job that runs this process daily/weekly
     a. And sends to email
